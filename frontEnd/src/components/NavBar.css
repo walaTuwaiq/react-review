@@ -1,0 +1,21 @@
+#nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    /* text-decoration: none; */
+    text-decoration: inherit;
+}
+
+.link-li{
+    list-style: none;
+    text-decoration: none;
+    background-color:rgba(188, 143, 143, 0.247);
+    padding: 1%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.link-li:hover{
+    background-color:rgba(188, 143, 143, 0.397);
+
+}
+

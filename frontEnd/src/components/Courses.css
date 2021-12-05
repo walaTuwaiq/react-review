@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(222, 184, 135, 0.486);
+    color: rgb(126, 100, 66);
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    opacity: 30%;
+}
+
+#add-data{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 300px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+#add-data input{
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(124, 102, 72);
+    height: 17px;
+}
+
+#add-data button{
+    margin-bottom: 1%;
+    border: 1px solid rgb(124, 102, 72);
+    border-radius: 1rem;
+    background-color: burlywood;
+    height: 30px;
+    color: rgb(126, 100, 66);
+    font-weight: bold;
+
+}
+
+#add-data button:hover{
+    cursor: pointer;
+    background-color: rgba(222, 184, 135, 0.596);
+
+}

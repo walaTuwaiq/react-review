@@ -1,0 +1,32 @@
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.signup-form input{
+    text-align: center;
+    margin-bottom: 1.5%;
+    height: 17px;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(124, 102, 72);
+
+}
+
+.signup-form button{
+    margin-bottom: 1%;
+    border: 1px solid rgb(124, 102, 72);
+    border-radius: 0.7rem;
+    background-color: burlywood;
+    height: 25px;
+    color: rgb(126, 100, 66);
+    font-weight: bold;
+}
+
+.signup-form button:hover{
+    cursor: pointer;
+    background-color: rgba(222, 184, 135, 0.596);
+
+}
